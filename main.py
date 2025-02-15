@@ -46,7 +46,7 @@ averageTime = sum(testTimes,timedelta())/len(testTimes)
 print(f"Results: \n {results}\n")
 
 
-print(f"Average Time: \n {results}\n")
+print(f"Average Time: \n {averageTime}\n")
 
 print("Errors:")
 for i in errors:
